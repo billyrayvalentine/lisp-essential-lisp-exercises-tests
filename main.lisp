@@ -6,6 +6,6 @@
 
 (in-suite all)
 
-(test 3.1-compare
+(test 3dot1
   "Test (compare (num1, num2))"
-  (is (essential-lisp-exercises:compare 5 5)))
+  (is (ele:compare 5 5)))

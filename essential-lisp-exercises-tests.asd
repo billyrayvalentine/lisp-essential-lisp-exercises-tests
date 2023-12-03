@@ -9,6 +9,7 @@
   :depends-on (#:essential-lisp-exercises #:fiveam)
   :components ((:file "package")
                (:file "main")
+               (:file "chapter2")
                (:file "chapter3"))
 
   :perform (test-op (o s) (symbol-call :fiveam :run! (find-symbol* :all :essential-lisp-exercises-tests))))
