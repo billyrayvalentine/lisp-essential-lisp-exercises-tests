@@ -6,4 +6,8 @@
    :3dot1
    :3dot2
    :3dot3
+   :3dot4
+   :3dot5
+   :3dot6
+   :3dot7
    :all))
